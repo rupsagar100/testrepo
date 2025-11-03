@@ -1,1 +1,15 @@
 hello world
+
+mkdir myrproject
+
+cd myrproject
+
+echo "write anything in a file" >> filename.txt
+
+git add filename.txt
+
+git commit -m "My commit message"
+
+git push origin master
+
+
